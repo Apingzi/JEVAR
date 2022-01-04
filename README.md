@@ -4,9 +4,7 @@ The detailed algorithm can be seen in the paper --- Z. Yang, R. Wang, Y. Jiang a
 
 
 
-Introductions for functions
-
-
+Introductions for functions:
 
 main_compare: compare the AP with the SAGE in SNR vs. RMSE
 
