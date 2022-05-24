@@ -20,6 +20,7 @@ tauEst = zeros(miu,IterMax); xiEst = zeros(miu,IterMax); thetaEst = zeros(miu,It
 % apMtx = []; % part of the construction of orthogonal projection matrix
 [ tauEst(1,1),xiEst(1,1),thetaEst(1,1),yRefactor1] =  est_single(ys1,ys2,ys,lTilde,zcLen,r,thetaRange,xiRange,M,d,lambda);
 apMtx = yRefactor1;
+cc = 1;
 % s = apMtx;
 % hHat =  (s'*s)\s'*ysTransform;
 if miu > 1
